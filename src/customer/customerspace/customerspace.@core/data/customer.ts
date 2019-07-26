@@ -6,6 +6,7 @@ export interface Customer {
   lastname: string;
   phonenumber: string;
   additionalInfo: string[];
+  lastVisit: Date
 }
 
 export abstract class Customer {
